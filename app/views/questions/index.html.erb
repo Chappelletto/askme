@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css"/>`
+<div class="container">
+  <p class="mt">
+    <%= link_to "Создать новый вопрос!", new_question_path, class: 'button button-main'%>
+  </p>
+
+   <p class="mt">
+    <%= render 'form', question: @question%>
+  </p>
+</div>
+
+<div class='container mt-sm'>
+  <h2 class='title-lg mb'>
+    <%= @questions.count %>
+    <%= inclinator(@questions.count, "вопрос", "вопроса", "вопросов") %>
+  </h2>
+</div>
+
+  <% @questions.each do |question| %>
+    <div class='mt-sm container'>
+      <%= render question%>
+    </div>
+  <% end %>
