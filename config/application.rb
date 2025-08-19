@@ -15,7 +15,10 @@ module Askme
     # not contain `.rb` files, or that should not be reloaded or eager loaded.
     # Common ones are `templates`, `generators`, or `middleware`, for example.
     config.autoload_lib(ignore: %w[assets tasks])
-
+# Отключить Action Cable
+    config.action_cable.mount_path = nil
+    config.action_cable.url = nil
+    config.action_cable.allowed_request_origins = []
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files
