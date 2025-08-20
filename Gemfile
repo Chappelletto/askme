@@ -20,7 +20,7 @@ gem "jbuilder"
 gem "unicorn", "~> 1.0"
 gem "capistrano", "~> 3.0"
 gem "capistrano-rails", "~> 1.6"
-
+gem "font-awesome-rails"
 
 gem "dotenv-rails"
 
@@ -54,7 +54,6 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
-  gem "font-awesome-rails"
 end
 
 group :development do
