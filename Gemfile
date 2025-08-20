@@ -17,6 +17,10 @@ gem "turbo-rails"
 gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
+gem "unicorn", "~> 1.0"
+gem "capistrano", "~> 3.0"
+gem "capistrano-rails", "~> 1.6"
+
 
 gem "dotenv-rails"
 
