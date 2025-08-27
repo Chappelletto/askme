@@ -2,6 +2,8 @@
 
 Askme - аналог одноименного сайта c вопросами.
 
+<img width="802" height="552" alt="Screenshot_2025-08-27_19-13-43" src="https://github.com/user-attachments/assets/5ab4c9c3-fa12-4b97-bb0e-d4c8677f92d0" />
+
 Реализована:
 1. Регистрация.
 2. Аутентификация.
